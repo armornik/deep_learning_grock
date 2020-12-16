@@ -71,6 +71,6 @@ input = [toes[0], wlrec[0], nfans[0]]
 
 print(weights_sum[0])
 print(input)
-pred = neural_network_sum((input, weights_sum[0]))
+pred = neural_network_sum(input, weights_sum)
 print('Получение прогноза с несколькими входами и выходами')
-# print(pred)
+print(pred)
